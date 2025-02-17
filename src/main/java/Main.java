@@ -34,22 +34,3 @@ public class Main {
     System.out.println("あなたの生後10000日は、" + formattedDate + "です！");
   }
 }
-
-//↓元のコード
-//import java.time.LocalDate;
-//import java.time.format.DateTimeFormatter;
-//
-//public class Main {
-//    public static void main(String[] args) {
-//
-//       LocalDate birthDate =LocalDate.of(2000,3,1);
-//
-//       LocalDate dateAfter10000Days = birthDate.plusDays(10000);
-//
-//      DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy年M月d日");
-//
-//      String formattedDate = dateAfter10000Days.format(formatter);
-//
-//      System.out.println("私の生後10000日は、" + formattedDate + "です！");
-//    }
-//}
